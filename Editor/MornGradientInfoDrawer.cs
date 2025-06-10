@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace MornColor
 {
-    [CustomPropertyDrawer(typeof(MornGradientInfoAttribute))]
-    public class MornGradientInfoAttributeDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(MornGradientInfo))]
+    public class MornGradientInfoDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
